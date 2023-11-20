@@ -127,7 +127,3 @@ body{
     color: blueviolet;
     border-color: blueviolet;
 }
-@keyframes zium{
-    from{}
-    to{right: 25px;}
-}
