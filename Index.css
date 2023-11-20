@@ -61,6 +61,7 @@ body{
 }
 .DniTyg1:focus{
     border-left: 2px solid blueviolet;
+    transform: translateX(20px);
 }
 #dni{
     font-family: "kanit","consolas","sans-serif" ;
@@ -107,7 +108,8 @@ body{
 }
 #rozsz{
     font-family: "kanit","consolas","sans-serif" ;
-    border: 2px solid white;
+    border: 4px;
+    border-style: outset ;
     color: white;
     height: 50px;
     width: 250px;
@@ -120,4 +122,12 @@ body{
     background-color: black;
     font-size: 30px;
     padding-bottom: 55px;
+}
+#rozsz:active{
+    color: blueviolet;
+    border-color: blueviolet;
+}
+@keyframes zium{
+    from{}
+    to{right: 25px;}
 }
