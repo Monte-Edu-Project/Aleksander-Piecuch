@@ -7,10 +7,19 @@ body{
     height: 700px;
     position: relative;
     margin: 0 auto;
-
-
-   
-
+}
+#Menu1{
+    border: solid 3px blueviolet;
+    border-left: hidden;
+    border-top-right-radius: 50px;
+    height: 700px;
+    border-bottom: hidden;
+    /*  padding:0; */
+    margin: 0 auto;
+    position: absolute;
+    width: 300px;
+    
+    
 }
 /* #Top1{
     border: solid 3px blueviolet;
@@ -30,11 +39,13 @@ body{
 } */
 .fa-circle-xmark{
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
     padding-right: 20px;
     padding-top: 15px;
     color: white;
     position: absolute;
+    right: 0px;
+    top: 5px;
 }
 .fa-circle-xmark:hover{
     color: red;
@@ -42,30 +53,15 @@ body{
 .fa-circle-xmark:active{
     color: red;
 }
-#Menu1{
-    border: solid 3px blueviolet;
-    
-    border-left: hidden;
-    border-top-right-radius: 50px;
-    height: 700px;
-    margin-top: 0px;
-    margin-right: 20%;
-    border-bottom: hidden;
-    padding:0;
-    position: absolute;
-    top: 46px;
-    left:0px;
-    right:0px;
-    width: 300px;
-    
-    
-}
+
 .DniTyg1{
     font-family: "kanit","consolas","sans-serif" ;
     border: hidden;
     border-left: 2px solid white;
     background-color: black;
     color: white;
+    font-size: 22px;
+
     
 }
 .DniTyg1:focus{
@@ -74,70 +70,62 @@ body{
 }
 #dni{
     font-family: "kanit","consolas","sans-serif" ;
-    /* border: 2px solid white; */
     color: white;
-    height: 50px;
+    height:auto ;
     width: 250px;
-    /* padding: 4px; */
     position: absolute;
-    top: 90px;
+    top: 56px;
     left: 20px;
     text-align: center;
-    /* padding-top: 20px; */
     padding: 2px 6px 2px 6px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-    font-size: 30px;
+    font-size: 22px;
     
 }
 #Pon{
     position: absolute;
-    top: 0px;
-    left: 00px;
-    font-size: 30px;
+    top: 120px;
+    left: 20px;
+
 }
 #Wtr{
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 20px;
-    font-size: 30px;
+
 }
 #Śrd{
     position: absolute;
-    top: 380px;
+    top: 280px;
     left: 20px;
-    font-size: 30px;
+
 }
 #Czw{
     position: absolute;
-    top: 460px;
+    top: 360px;
     left: 20px;
-    font-size: 30px;
+
 }
 #Pią{
     position: absolute;
-    top: 540px;
+    top: 440px;
     left: 20px;
-    font-size: 30px;
+
 }
 #rozsz{
     font-family: "kanit","consolas","sans-serif" ;
-    /* border: 4px;
-    border-style: outset ; */
     color: white;
-    height: 100px;
-    width: 250px;
-    /* padding: 4px; */
+    height: 90px;
+    width: 170px;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 20px;
     text-align: center;
-    /* padding-top: 20px; */
     background-color: black;
-    font-size: 30px;
-    /* padding-bottom: 55px; */
+    font-size: 20px;
     padding: 2px 6px 2px 6px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;

@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+#BoxMain{
+    border: 2px solid blueviolet;
+    width: 400px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+}
+#dni{
+    font-family: "kanit","consolas","sans-serif" ;
+    color: white;
+    height:auto ;
+    width: 250px;
+    position: absolute;
+    top: 36px;
+    left: 75px;
+    text-align: center;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    font-size: 22px;
+    
+}
+.KlasyR{
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-size: 20px; 
+    background-color: black;
+    right: 60px;
+
+}
+.KlasyL{
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-size: 20px; 
+    background-color: black;
+    left: 60px;
+}
+.KlasyL:focus{
+    border: 2px solid blueviolet;
+}
+.KlasyR:focus{
+    border: 2px solid blueviolet;
+}
+#Kl1A{
+    position: absolute;
+    top: 120px;
+
+}
+#Kl1B{
+    position: absolute;
+    top: 120px;
+
+}
+#Śrd{
+    position: absolute;
+    top: 280px;
+
+}
+#Czw{
+    position: absolute;
+    top: 360px;
+    left: 20px;
+
+}
+#Pią{
+    position: absolute;
+    top: 440px;
+}
+#Kl4{
+    position: absolute;
+    top: 200px;
+}
