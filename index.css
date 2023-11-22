@@ -8,7 +8,7 @@ body{
     position: relative;
     margin: 0 auto;
 }
-#dni{
+#klasy{
     font-family: "kanit","consolas","sans-serif" ;
     color: white;
     height:auto ;
@@ -31,7 +31,7 @@ body{
     padding: 2px;
     font-size: 20px; 
     background-color: black;
-    right: 60px;
+    left: 245px;
 
 }
 .KlasyL{
@@ -40,7 +40,7 @@ body{
     padding: 2px;
     font-size: 20px; 
     background-color: black;
-    left: 60px;
+    left: 75px;
 }
 .KlasyL:focus{
     border: 2px solid blueviolet;
@@ -50,30 +50,29 @@ body{
 }
 #Kl1A{
     position: absolute;
-    top: 120px;
+    top: 90px;
 
 }
 #Kl1B{
     position: absolute;
-    top: 120px;
+    top: 90px;
 
 }
-#Śrd{
+#Kl2A{
     position: absolute;
-    top: 280px;
+    top: 140px;
 
 }
-#Czw{
+#Kl2B{
     position: absolute;
-    top: 360px;
-    left: 20px;
+    top: 140px;
 
 }
-#Pią{
+#Kl3{
     position: absolute;
-    top: 440px;
+    top: 190px;
 }
 #Kl4{
     position: absolute;
-    top: 200px;
+    top: 190px;
 }
